@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo__links">
+            <div class="navbar_toggler">
+              <img src="images/icon-menu.svg" alt="" />
+            </div>
+            <span class="logo"> boots </span>
+            <ul class="links">
+              <i class="fa-solid fa-xmark close_navbar"></i>
+              <li>
+                <a href="">Collections</a>
+              </li>
+              <li>
+                <a href="">Men</a>
+              </li>
+              <li>
+                <a href="">Women</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icons">
+            <div class="cart_icon">
+              <img class="cart_toggler" src="images/icon-cart.svg" alt="" />
+            </div>
+            <div class="cart">
+              <p>Cart</p>
+              <span class="none">Your cart is empty.</span>
+              <a href="" class="checkout">Checkout</a>
+            </div>
+            <div class="profile">
+              <img src="images/image-avatar.png" alt="" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="slider">
+          <div class="current_slide">
+            <img
+              src="images/slide-1.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+            <img
+              src="images/slide-2.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+            <img
+              src="images/slide-3.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+            <img
+              src="images/slide-4.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+            <img
+              src="images/slide-5.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+            <div class="buttons">
+              <div class="prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slides">
+            <div class="active" data-slide="slide-1">
+              <img
+                src="images/image-product-1-thumbnail.jpg"
+                draggable="false"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div data-slide="slide-2">
+              <img
+                src="images/image-product-2-thumbnail.jpg"
+                draggable="false"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div data-slide="slide-3">
+              <img
+                src="images/image-product-3-thumbnail.jpg"
+                draggable="false"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div data-slide="slide-4">
+              <img
+                src="images/image-product-4-thumbnail.jpg"
+                draggable="false"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div data-slide="slide-5">
+              <img
+                src="images/image-product-5-thumbnail.jpg"
+                draggable="false"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <p>Sneaker Company</p>
+          <h1>Winter Limited Edition Boots</h1>
+          <p>
+            These low-profile boots are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price">
+            <span> $125.00</span>
+            <span> </span>
+            <del> $250.00</del>
+          </div>
+          <div class="buy">
+            <div class="quantity">
+              <img class="minus" src="images/icon-minus.svg" alt="" />
+              <span>0</span>
+              <img class="plus" src="images/icon-plus.svg" alt="" />
+            </div>
+            <a class="add">
+              <i class="fa-solid fa-cart-shopping"></i> Add to cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="main_slider">
+      <div class="slider">
+        <i class="fa-solid fa-xmark close_slider"></i>
+        <div class="current_slide">
+          <img
+            src="images/slide-1.jpg"
+            draggable="false"
+            loading="lazy"
+            alt=""
+          />
+          <img
+            src="images/slide-2.jpg"
+            draggable="false"
+            loading="lazy"
+            alt=""
+          />
+          <img
+            src="images/slide-3.jpg"
+            draggable="false"
+            loading="lazy"
+            alt=""
+          />
+          <img
+            src="images/slide-4.jpg"
+            draggable="false"
+            loading="lazy"
+            alt=""
+          />
+          <img
+            src="images/slide-5.jpg"
+            draggable="false"
+            loading="lazy"
+            alt=""
+          />
+        </div>
+        <div class="buttons">
+          <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+          <div class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="slides">
+          <div class="active" data-slide="0">
+            <img
+              src="images/image-product-1-thumbnail.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div data-slide="1">
+            <img
+              src="images/image-product-2-thumbnail.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div data-slide="2">
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div data-slide="3">
+            <img
+              src="images/image-product-4-thumbnail.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div data-slide="4">
+            <img
+              src="images/image-product-5-thumbnail.jpg"
+              draggable="false"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
